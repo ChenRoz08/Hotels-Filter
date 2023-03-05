@@ -1,6 +1,3 @@
-/* Notice how we've changed the data model for filters
-to make managing the state of the selected filters and the
-conditional rendering of our hotels easier. */
 export const filterOptions = [
   { display: "Free Cancellation", key: "hasFreeCancellation" },
   { display: "Breakfast Included", key: "includesBreakfast" },
@@ -8,7 +5,7 @@ export const filterOptions = [
   { display: "Parking", key: "hasParking" },
   { display: "Pets Allowed", key: "allowsPets" },
   { display: "Room Service", key: "hasRoomService" },
-  { display: "Fitness Centre", key: "hasFitnessCenter" }
+  { display: "Fitness Centre", key: "hasFitnessCenter" },
 ];
 
 export const hotels = [
@@ -27,7 +24,7 @@ export const hotels = [
     hasParking: false,
     allowsPets: false,
     hasRoomService: false,
-    hasFitnessCenter: false
+    hasFitnessCenter: false,
   },
   {
     id: 124,
@@ -44,7 +41,7 @@ export const hotels = [
     hasParking: true,
     allowsPets: false,
     hasRoomService: true,
-    hasFitnessCenter: true
+    hasFitnessCenter: true,
   },
   {
     id: 125,
@@ -61,7 +58,7 @@ export const hotels = [
     hasParking: true,
     allowsPets: false,
     hasRoomService: false,
-    hasFitnessCenter: true
+    hasFitnessCenter: true,
   },
   {
     id: 126,
@@ -78,7 +75,7 @@ export const hotels = [
     hasParking: false,
     allowsPets: true,
     hasRoomService: false,
-    hasFitnessCenter: true
+    hasFitnessCenter: true,
   },
   {
     id: 127,
@@ -95,6 +92,6 @@ export const hotels = [
     hasParking: true,
     allowsPets: false,
     hasRoomService: true,
-    hasFitnessCenter: false
-  }
+    hasFitnessCenter: false,
+  },
 ];
